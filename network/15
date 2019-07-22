@@ -1,0 +1,5 @@
+# Make the intra.42.fr address reroute to 46.19.122.85
+
+https://profile.intra.42.fr 46.19.122.85 >> /etc/hosts
+
+# permissin denied (non admin account)

@@ -1,0 +1,5 @@
+# Get the complete path of the file that contains the IP address of the DNS server you're using.
+
+#cat /var/run/resolv.conf
+
+Deduction : resolv.conf contains the IP address of the used DNS server.

@@ -1,0 +1,11 @@
+# Use the output of the previous command to find the name and IP address of the
+# device that makes the link between you (local network) and the outside world
+
+# traceroute slash16.org | grep nat-1
+
+ This is the name "nat-1" and the ip address "(10.60.1.11)" of" the device 
+ that make the link between me and the outside word
+
+
+# Implementation of NAT
+# Matches between private and internal addresses are stored in a table as pairs

@@ -1,0 +1,6 @@
+# What command can you use to rename your system?
+# just cat them
+
+/etc/hostname
+
+# this is the file that have to be change

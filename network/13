@@ -1,0 +1,11 @@
+# Thanks to the previous question and the reverse DNS find the name of your host
+
+# ipconfig getpacket en0 | grep dhcp
+
+dhcp_message_type (uint8): ACK 0x5
+
+# The server is a DHCP type, Dynamic Host Configuration Protocol.
+
+# DHCP is a network management protocol used on UDP/IP networks whereby a DHCP server dynamically assigns an IP
+# address and other network configuration parameters to each device on a network so they can communicate with 
+# other IP networks.

@@ -1,0 +1,5 @@
+# Name the command that determines the state of the SSH service.
+
+sudo service ssh status
+
+# See status of OpenSSH server

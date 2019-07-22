@@ -1,0 +1,9 @@
+# Get the list of the network interfaces of the machine without displaying 
+# any detail for these interfaces. Only the list of names.
+
+ifconfig -a | grep UP | cut -d : -f1
+
+# grep sort all lines containing the searched pattern (here the pattern is UP), note that the pattern
+# can be a regular expression.
+# cut allows you to cut each line of an output several times
+# allows to choose the delimiter between each field, here we chose : we only take the 1st champion.

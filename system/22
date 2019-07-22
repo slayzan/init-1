@@ -1,0 +1,6 @@
+# Find the command that add a new local user
+
+useradd jsmith
+
+# this one is not allways required but it's nice to know how to use it
+# passwd jsmith

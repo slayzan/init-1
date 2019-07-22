@@ -1,0 +1,6 @@
+# What file contains the local DNS entries?
+
+named.conf, a resolver file named resolve.conf and four type of zone data files
+
+# In addition to the in.named daemon, DNS on a name server consists of a boot file called named.conf, 
+# a resolver file named resolv.conf, and four types of zone data files.

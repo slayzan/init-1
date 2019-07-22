@@ -1,0 +1,5 @@
+# What command gives you the time since your system was last booted?
+
+who -b
+
+# Use who command to find last system reboot time/date

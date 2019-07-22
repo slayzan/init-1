@@ -1,0 +1,5 @@
+# Explain how connect yourself as new user. (With graphic session and ssh session).
+
+When the user is create, with a password etc, i just have to switch to this user 
+with the su -username command, or just log again as i learn before 
+'ssh username@(ipadress) -p (port)'

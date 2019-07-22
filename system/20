@@ -1,0 +1,3 @@
+# listing users on the VM
+
+cut -d: -f1 /etc/passwd

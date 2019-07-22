@@ -1,0 +1,12 @@
+# Write a script which delete an ACTIVE user on the VM
+
+sudo pkill -KILL -u <username>
+sudo userdel -f <username>
+sudo pkill -KILL -u <username>
+
+# the first one will logout the user,
+# the second one will delete the user,
+# And let's do the first one again in case it didn't work 
+# or the user did log again instanly after being log out
+
+# DO NOT USE ON ROOT USER!!!!

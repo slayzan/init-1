@@ -1,0 +1,9 @@
+#Find the provider of slash16.org
+
+# whois slash16.org | grep Name
+
+AWS is the provider of slash16.org which is Amazon.
+
+# we need to find the authoritative DNS servers. We can find it in the Name Server record
+# whois used to discover who hosts this website
+# AWS which is Amazon
